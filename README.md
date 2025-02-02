@@ -68,4 +68,4 @@ Explain what the video demonstrates
 ## Team Contributions
 - Lekshmi Prasad: Frontend
 - Gayathry S: Database
-- Sharon: Github repository + Flask
+- Sharon: Github repository + Information web page
