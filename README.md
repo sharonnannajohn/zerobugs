@@ -54,11 +54,11 @@ For Software:
 
 
 # Diagrams
+
+---------------------------
           Start
             |
       [User visits website]
-            |
-  ---------------------------
             |                        
    [View Venue Details]    
             |                         
@@ -72,7 +72,8 @@ For Software:
             |                         
     [Confirm booking]               
             |                        
-           [End]                
+           [End]    
+----------------------------
 
 
 ### Project Demo
