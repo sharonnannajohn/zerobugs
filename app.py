@@ -48,9 +48,3 @@ conn.close()
 
 
 
-
-
-
-conn.commit()
-conn.close()
-
