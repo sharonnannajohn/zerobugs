@@ -1,7 +1,7 @@
 import sqlite3
 conn = sqlite3.connect('weddingvenues.db')
 curs=conn.cursor()
-'''curs.execute(""" CREATE TABLE IF NOT EXISTS VENUES
+curs.execute(""" CREATE TABLE IF NOT EXISTS VENUES
                  (VENUE_ID integer PRIMARY KEY AUTOINCREMENT,
                   VENUE_NAME VARCHAR(200),
                   LOCATION TEXT,
@@ -29,7 +29,7 @@ conn.commit()
 
 curs.execute("""INSERT INTO VENUES (VENUE_NAME,LOCATION,OWNER_NAME,OWNER_CONTACT) VALUES(?,?,?,?)
 """,("Whispering Oaks","Idukki","Dcunia",8899004477))
-conn.commit()'''
+conn.commit()
 
 curs.execute(""" CREATE TABLE IF NOT EXISTS BOOKINGS 
                  (BOOKING_ID INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -44,6 +44,7 @@ curs.execute(""" CREATE TABLE IF NOT EXISTS BOOKINGS
          
              """)
 conn.commit()
+conn.close()
 
 
 
