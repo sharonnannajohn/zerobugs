@@ -45,19 +45,35 @@ For Software:
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-Add caption explaining what this shows
+# Screenshots
+![WhatsApp Image 2025-02-02 at 10 49 11_bbfeab10](https://github.com/user-attachments/assets/c7e72965-bec3-4c80-9720-98804a440ffa) - Home page of website - Guides user to the venue information page
 
-![Screenshot2](Add screenshot 2 here with proper name)
-Add caption explaining what this shows
+![WhatsApp Image 2025-02-02 at 10 50 13_f18e6fbf](https://github.com/user-attachments/assets/a0d5b2df-75af-4d48-b217-0ac63afe0118) - Details page - Details of venue and venue owner for user to contact
 
-![Screenshot3](Add screenshot 3 here with proper name)
-Add caption explaining what this shows
+![WhatsApp Image 2025-02-02 at 10 51 04_9f46325e](https://github.com/user-attachments/assets/a6c0143f-d3e0-40ee-8919-f0c0eaa3b349) Venue information page - Gives the user an idea of how each venue looks like
+
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-Add caption explaining your workflow
+          Start
+            |
+      [User visits website]
+            |
+  ---------------------------
+            |                        
+   [View Venue Details]    
+            |                         
+    [Venue Details Page]   
+            |                 
+      [Choose Venue]          
+            |                         
+ [Enter Name & Contact Info] 
+            |                         
+  [Enter From Date & To Date]  
+            |                         
+    [Confirm booking]               
+            |                        
+           [End]                
+
 
 ### Project Demo
 # Video
