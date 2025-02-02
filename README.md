@@ -31,7 +31,8 @@ For Hardware:
 - Laptops
 - 1) 13th Gen Intel(R) Core(TM) i7-1355U   1.70 GHz
   2) 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz   2.69 GHz
-  3) 
+  3) 12th Gen Intel(R) Core(TM) i5-12450H   2.00 GHz
+
 
 ### Implementation
 For Software:
